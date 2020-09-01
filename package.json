@@ -1,0 +1,15 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^8.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
