@@ -1,4 +1,4 @@
-const MyPromise = require('./promise');
+const MyPromise = require('../Promise/promise');
 
 const resData = 100;
 
