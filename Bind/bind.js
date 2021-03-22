@@ -10,7 +10,9 @@ function bind (context, ...bindArgs) {
 
 
 // 考虑了构造函数的终极版本
-// 在构造函数中： bind的this指向的实例而不是bind的第一个参数，即bind函数在new时，第一个参数失效
+// 在构造函数中： 
+//    bind的this指向的实例而不是bind的第一个参数，即bind函数在new时，第一个参数是this
+//    bind返回的函数的prototype可以访问到原函数prototype上的数据。
 
 function bindComplete(context, ...bindArgs){
     const self = this;

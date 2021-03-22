@@ -1,4 +1,4 @@
-
+// 这个promise只实现了基本功能，还缺少，catch， 任务队列，链式调用
 const Fulfilled = 'Fulfilled';
 const Rejected = 'Rejected';
 const Pending = 'pending';
